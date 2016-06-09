@@ -1,15 +1,32 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title></title>
-  </head>
-  <body>
-      <select name="my_select" style="height: 40px; line-height: 100px;">
-        <option name="reggae"> Select your genre </option>
-        <option name="reggae"> Reggae </option>
-        <option name="blues"> Blues </option>
-      </select>
+    <link rel="stylesheet" href="style.css" media="screen" title="no title" charset="utf-8">
+</head>
 
-  </body>
+<body>
+    <div id="header"></div>
+    <div id="container" class="arrange-horiz">
+        <div id="leftContainer">
+            <div id="trackBin">
+                <div id="title">track bin</div>
+                <input type="button" id="chooseTracks" value="choose tracks">
+            </div>
+        </div>
+        <div id="trackContainer" class="arrange-horiz">
+            <div id="albumList"></div>
+        </div>
+    </div>
+    <div id="footer">
+        <div id="copyright">&copy Alexander Murphy</div>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script type="text/javascript" src="index_app.js"></script>
+</body>
+
 </html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Playlists</title>
+  <link rel="stylesheet" href="style.css" media="screen" title="no title" charset="utf-8">
+</head>
+<body>
+  <div id="header">
+    <div class="headerText">
+      Click an album to add its tracks to the bin.
+    </div>
+  </div>
+  <div id="container">
+    <div id="albumHorizScroll"></div>
+    <div id="albumBin"></div>
+    <div id="buttonBin">
+      <input id="clearTracks" class="chooseTracks" type="button" value="clear tracks">
+      <input id="submitBin" class="chooseTracks" type="button" value="submit bin">
+    </div>
+  </div>
+  <div id="footer">
+    <div id="copyright">&copy Alexander Murphy</div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="playlist_app.js"></script>
+</body>
+</html>
